@@ -1,0 +1,355 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: whitesmoke;
+    font-family: 'Times New Roman', Times, serif;
+}
+header{
+    background-image:     linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url("wp12615548.webp");
+    height: 70vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    filter: drop-shadow(0.8);
+    border-radius: 4px;
+    
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+}
+h1{
+    margin-top: 28px;
+    font-family:  Verdana, Geneva, Tahoma, sans-serif;
+}
+ul{
+    display: flex;
+    list-style: none;
+    margin-top: 30px;
+    
+}
+li{
+    padding: 15px;
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;  
+}
+a:hover{
+    color: whitesmoke;
+}
+.text{
+    color: white;
+    text-align: center;
+   margin-top: 120px;
+}
+button{
+    margin-top: 8px;
+    background-color: lime;
+    border: 1px solid whitesmoke;
+    font-size: 18px;
+    border-radius: 20px;
+    padding: 8px;
+}
+main{
+    background-color:  lightgray;
+    height: 70vh;
+}
+.center{
+    text-align: center;
+    font-weight: bold;
+    padding: 50px;
+    
+    font-size: 22px;
+}
+.flex{
+    display: flex;
+   justify-content: center;
+   gap: 15px;
+}
+.box{
+    background-color: white;
+    height: 220px;
+    width: 230px;
+    margin-top: 20px;
+    padding: 5px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.bi-youtube{
+  font-size: 30px;
+  margin-top: 20px;
+  color: lime;
+}
+.bi-linkedin{
+  font-size: 30px;
+  margin-top: 20px;
+  color: lime;
+}
+.bi-lightbulb{
+  font-size: 30px;
+  margin-top: 20px;
+  color: lime;
+}
+.bi-link-45deg{
+  font-size: 30px;
+  margin-top: 20px;
+  color: lime;
+  position: relative;
+  top: 5px;
+}
+i:hover{
+    color: black;
+}
+.sec{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("wp12615548.webp");
+    height: 80vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.left{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex-wrap: wrap;
+    align-content: center;
+    width: 40%;
+    padding-left: 150px;
+    
+}
+.flex1{
+    display: flex;
+    align-items: center;
+    
+    padding: 100px;
+}
+ .first{
+    position: relative;
+  bottom: 30px;
+   left: 90%;
+   width: 250px;
+}
+.secnd{
+    position: relative;
+    top: 70px;
+    left: 38%;
+    z-index: 1;
+    width: 250px;
+}
+.third{
+    position: relative;
+   top: 125px;
+   left: 30%;
+   width: 250px;
+} 
+.picture{
+    position: absolute;
+    padding-left: 120px;
+    padding-bottom: 150px;
+}
+.port{
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+.anchor{
+    justify-content: center;
+}
+.fancy:hover{
+      border-bottom: 2px solid black ;
+      border-bottom-right-radius: 5px;
+}
+.Dabbay{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.box1{
+    background-image: url("bur.jpg");
+    height: 150px;
+    width: 15%;
+    object-fit: fill;
+    background-size: cover;
+    background-position: center;
+}
+.Dabbe{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+.portfolio{
+    background-color: lightgray;
+    padding: 30px;
+}
+.foot{
+    background-color: lightgreen;
+}
+.images{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+    padding: 50px;
+}
+.img1{
+    background-image: url("tomato-hamburger-patty-sandwich-wallpaper-preview.jpg");
+    height: 410px;
+    width: 50%;
+    background-position: center;
+    background-size: cover;
+}
+.cont{
+    margin-top: 320px;
+    padding: 10px;
+    font-size: 21px;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+}
+.img2{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.img3{
+    background-image: url("bur.jpg");
+    height: 200px;
+    width: 500px;
+    background-position: center;
+    background-size: cover;
+}
+.img4{
+    background-image: url("Crispy-Chicken-roll-Recipe-by-Food-fusion-5.webp");
+    height: 200px;
+    width: 500px;
+    background-position: center;
+    background-size: cover;
+}
+.cos{
+    margin-top: 145px;
+    padding: 10px;
+    font-size: 15px;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+}
+.blok{
+    display: flex;
+    justify-content: center;
+    background-color: lightgray;
+    padding: 60px;
+    gap: 10px;
+    
+}
+.block{
+    background-color: white;
+    box-shadow: 5px 5px 5px black;
+    height: 150px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+}
+.bl{
+    margin: 30px;
+    text-align: center;
+    color: lightgreen;
+    font-size: 15px;
+    font-weight: bold;
+}
+.blk{
+    text-align: center;
+    font-size: 18px;
+}
+.end{
+    background-image:     linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),url("wp12615548.webp");
+    height: 70vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    filter: drop-shadow(0.8);
+}
+.h{
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    padding: 20px;
+}
+.map{
+    display: flex;
+    gap: 10px;
+    margin-left: 250px;
+}
+.contact{
+    gap: 20px;
+   
+}
+input[type="text"]{
+    padding: 10px;
+    width: 170px;
+    background-color: rgba(255, 255, 255, 0.452) ;
+    border: 1px solid;
+    
+}
+.desc{
+   
+    margin-top: 20px;
+    border: 1px solid ;
+    background-color: rgba(255, 255, 255, 0.452) ;
+}
+input::placeholder{
+    color: black;
+}
+textarea::placeholder{
+    color:black;
+}
+.copyright{
+    color: white;
+    margin-top: 50px;
+    margin-left: 200px;
+}
+.ic{
+    display: flex;
+    justify-content: flex-end;  
+}
+.icons{
+position:relative;
+bottom: 25px;
+right: 200px;
+color: greenyellow;
+font-size: 24px;
+}
+#swad{
+    background-image: url("swad.jpeg");
+}
+#roll{
+    background-image: url("Crispy-Chicken-roll-Recipe-by-Food-fusion-5.webp");
+}
+#paratha{
+    background-image: url("images\ \(2\).jpeg");
+}
+#zinger{
+    background-image: url("images\ \(3\).jpeg");
+}
+#bottle{
+background-image: url("Cola_Next_-_345_ml_1630x1630.jpg");
+}
+#pizza{
+background-image: url("download.jpeg");
+}
+#fries{
+background-image: url("a-mouthwatering-high-quality-photograph-of-a-large-FlWhPXuzSZG4U-5auOHeRg-Z9DGLPukTbiXp7u8jvsNDg_8f5f5405-af98-4309-8e3d-0a842024f834.webp");
+}
+.hover:hover{
+    color: red;
+}
