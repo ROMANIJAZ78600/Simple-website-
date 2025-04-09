@@ -472,6 +472,6 @@ background-image: url("a-mouthwatering-high-quality-photograph-of-a-large-FlWhPX
         width: 100%;
     }
     textarea{
-        columns: 40;
+        width: 200px;
     }
 }
