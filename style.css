@@ -468,4 +468,7 @@ background-image: url("a-mouthwatering-high-quality-photograph-of-a-large-FlWhPX
     .sec{
         height: 100vh;
     }
+    header{
+        width: 100%;
+    }
 }
