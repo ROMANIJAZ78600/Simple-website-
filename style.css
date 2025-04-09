@@ -367,11 +367,12 @@ background-image: url("a-mouthwatering-high-quality-photograph-of-a-large-FlWhPX
        flex-direction: column;
        justify-content: center;
     }
+    
     nav ul{
         margin-top: 2px;
     }
     nav ul li a{
-        font-size: 13px;
+        font-size: 10px;
         text-align: center;
         padding: 0;
        
@@ -394,7 +395,7 @@ background-image: url("a-mouthwatering-high-quality-photograph-of-a-large-FlWhPX
        width: 100%;
     }
     main{
-        height: 210vh;
+        height: 170vh;
     }
     .first{
         position: relative;
