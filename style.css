@@ -372,6 +372,8 @@ background-image: url("a-mouthwatering-high-quality-photograph-of-a-large-FlWhPX
     }
     nav ul li a{
         font-size: 18px;
+        text-align: center;
+        margin-left: 30px;
     }
     .text{
         margin-top: 50px;
@@ -391,24 +393,24 @@ background-image: url("a-mouthwatering-high-quality-photograph-of-a-large-FlWhPX
        width: 100%;
     }
     main{
-        height: 110vh;
+        height: 210vh;
     }
     .first{
         position: relative;
-        top: 500px;
-    left: 7% ;
+        top: 260px;
+        left: 25%;
     width: 200px;
     }
     .secnd{
         position: relative;
-        top: 420px;
+        top: 300px;
         left: 3%;
         z-index: 1;
         width: 180px;
     }
     .third{
         position: relative;
-        top: 380px;
+        top: 240px;
         left: 7%;
         width: 200px;
     }
@@ -445,7 +447,7 @@ background-image: url("a-mouthwatering-high-quality-photograph-of-a-large-FlWhPX
         margin-left: 10px;
     }
     .end{
-        height: 60vh;
+        height: 110vh;
     }
     .copyright{
         display: flex;
@@ -463,5 +465,7 @@ background-image: url("a-mouthwatering-high-quality-photograph-of-a-large-FlWhPX
     right: 150px;
     gap: 1px;
     }
-    
+    .sec{
+        height: 100vh;
+    }
 }
