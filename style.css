@@ -1,10 +1,12 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 body{
     background-color: whitesmoke;
     font-family: 'Times New Roman', Times, serif;
+    overflow-x: hidden;
 }
 header{
     background-image:     linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url("wp12615548.webp");
@@ -318,11 +320,13 @@ textarea::placeholder{
     margin-top: 50px;
     margin-left: 200px;
 }
-.ic{
-    display: flex;
-    justify-content: flex-end;  
+.copy{
+  margin-left: 230px;
 }
+
 .icons{
+    display: flex;  
+    justify-content: flex-end;
 position:relative;
 bottom: 25px;
 right: 200px;
@@ -352,4 +356,114 @@ background-image: url("a-mouthwatering-high-quality-photograph-of-a-large-FlWhPX
 }
 .hover:hover{
     color: red;
+}
+
+@media screen and (max-width: 400px){
+    h1{
+        font-size: 14px;
+        text-align: center;
+    }
+    .nav{
+       flex-direction: column;
+       justify-content: center;
+    }
+    nav ul{
+        margin-top: 2px;
+    }
+    nav ul li a{
+        font-size: 18px;
+    }
+    .text{
+        margin-top: 50px;
+    }
+    .flex{
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .flex1{
+        padding: 30px;
+        flex-direction: column;
+        height: 70vh;
+    }
+    .left{
+        padding-left: 0px;
+       width: 100%;
+    }
+    main{
+        height: 110vh;
+    }
+    .first{
+        position: relative;
+        top: 500px;
+    left: 7% ;
+    width: 200px;
+    }
+    .secnd{
+        position: relative;
+        top: 420px;
+        left: 3%;
+        z-index: 1;
+        width: 180px;
+    }
+    .third{
+        position: relative;
+        top: 380px;
+        left: 7%;
+        width: 200px;
+    }
+    .box1{
+        width: 40%;
+    }
+    .img1{
+        width: 100%;
+    }
+    .cont {
+        margin-top: 280px;
+    }
+    .img3{
+        width: 350px;
+    }
+    .cos {
+        margin-top: 130px;
+    }
+    .img4{
+        width: 350px;
+    }
+    .blok{
+        flex-direction: column;
+        align-items: center;
+    }
+    iframe{
+        width: 200px;
+        height: 100px;
+        
+    }
+    .map{
+        display: flex;
+        flex-direction: column;
+        margin-left: 10px;
+    }
+    .end{
+        height: 60vh;
+    }
+    .copyright{
+        display: flex;
+        flex-direction: row;
+        margin-left: 0px;
+    }
+    .copy{
+        text-align: center; 
+        margin-left: 100px;
+        margin-top: 90px;  
+    }
+    .icons{
+        text-align: center;
+        top: 53px;
+    right: 150px;
+    gap: 1px;
+    }
+    header{
+        height: 55vh;
+    }
 }
