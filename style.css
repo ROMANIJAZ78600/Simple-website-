@@ -447,7 +447,7 @@ background-image: url("a-mouthwatering-high-quality-photograph-of-a-large-FlWhPX
         margin-left: 10px;
     }
     .end{
-        height: 120vh;
+        height: 125vh;
     }
     .copyright{
         display: flex;
@@ -471,7 +471,7 @@ background-image: url("a-mouthwatering-high-quality-photograph-of-a-large-FlWhPX
     header{
         width: 100%;
     }
-    textarea{
+    .contact{
         width: 200px;
     }
 }
